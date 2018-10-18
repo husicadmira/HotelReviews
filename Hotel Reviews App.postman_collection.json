@@ -1,0 +1,571 @@
+{
+	"id": "194dfeb7-327c-2f3f-8399-f0879e7122f2",
+	"name": "Hotel Reviews App",
+	"description": "",
+	"order": [
+		"a9729ad5-6c13-eaaf-812c-70c0ad2ce1b9",
+		"5ac56969-ff9c-161a-1135-8038a1d84051",
+		"aa652838-eb2c-13e2-7c4e-53dfc2802872",
+		"1f062783-728a-86b7-f03f-002c5c30b46c",
+		"ce0fa7aa-c72f-1b7b-df21-e05390c0a01f",
+		"dc02e627-48e9-af3b-9f0a-535acb20feb2",
+		"64e31d9e-1e0d-9730-198f-e23373b2660a",
+		"5516ef53-95f4-380d-f868-b14fed0acfef",
+		"1af950ec-32c6-4b9a-e4a1-d9dd20c43019",
+		"4f59e168-26ff-fe97-f83f-fc93dabdb9dd",
+		"b4bba4d2-306a-4a5e-e1ca-7e74067e1211",
+		"0ecf2337-e7a5-e8a0-a294-900e52d95523",
+		"c819503b-57c0-79a3-58b7-831fda0bedef",
+		"aa57c4c4-ae62-12af-16c3-80cd1c33ee1c",
+		"3121de00-e33b-3aac-c81c-4b297e5eadd8",
+		"6641b412-ceca-74fb-2172-a5b9f78faa05",
+		"a8823b83-3ba3-4720-9c9f-65bb0f47bca3",
+		"a98ef267-22b7-23a2-749e-54142ca2a682"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1535565372235,
+	"owner": "2010770",
+	"public": false,
+	"requests": [
+		{
+			"id": "0ecf2337-e7a5-e8a0-a294-900e52d95523",
+			"headers": "x-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNTM3NTM3ODgzfQ.qI5dpAQS8Bt1pxOoQlXvJTeEblxWeupo9ljydy3AvO0\n",
+			"headerData": [
+				{
+					"key": "x-auth",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNTM3NTM3ODgzfQ.qI5dpAQS8Bt1pxOoQlXvJTeEblxWeupo9ljydy3AvO0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3001/review/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1537540885361,
+			"name": "Get reviews for hotel",
+			"description": "",
+			"collectionId": "194dfeb7-327c-2f3f-8399-f0879e7122f2",
+			"responses": []
+		},
+		{
+			"id": "1af950ec-32c6-4b9a-e4a1-d9dd20c43019",
+			"headers": "x-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNTM3NTM3ODgzfQ.qI5dpAQS8Bt1pxOoQlXvJTeEblxWeupo9ljydy3AvO0\n",
+			"headerData": [
+				{
+					"key": "x-auth",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNTM3NTM3ODgzfQ.qI5dpAQS8Bt1pxOoQlXvJTeEblxWeupo9ljydy3AvO0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3001/favorite",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1537540869623,
+			"name": "View favorite hotels",
+			"description": "",
+			"collectionId": "194dfeb7-327c-2f3f-8399-f0879e7122f2",
+			"responses": []
+		},
+		{
+			"id": "1f062783-728a-86b7-f03f-002c5c30b46c",
+			"headers": "Content-Type: application/json\nx-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTM3NTM3ODI2fQ.f8fYCkoPvldlfqRiGyS4Kyxlbwv1ztQSNZVHrLy2Rtg\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-auth",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTM3NTM3ODI2fQ.f8fYCkoPvldlfqRiGyS4Kyxlbwv1ztQSNZVHrLy2Rtg",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3001/hotels",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1537540851802,
+			"name": "Add hotel",
+			"description": "",
+			"collectionId": "194dfeb7-327c-2f3f-8399-f0879e7122f2",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\":\"Prvi Hotel\",\n\t\"address\":\"Adresa hotela\",\n\t\"description\":\"Prvi hotel\",\n\t\"geolocation\":\"a,b\"\n}"
+		},
+		{
+			"id": "3121de00-e33b-3aac-c81c-4b297e5eadd8",
+			"headers": "x-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNTM3NTM4MDgxfQ.eGc6VFpUfXNdUEtXCfstvr2JyODSo4rzKSInHEhhmmQ\n",
+			"headerData": [
+				{
+					"key": "x-auth",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNTM3NTM4MDgxfQ.eGc6VFpUfXNdUEtXCfstvr2JyODSo4rzKSInHEhhmmQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3001/review/dislike/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1537540946587,
+			"name": "Dislike Review",
+			"description": "",
+			"collectionId": "194dfeb7-327c-2f3f-8399-f0879e7122f2",
+			"responses": []
+		},
+		{
+			"id": "4f59e168-26ff-fe97-f83f-fc93dabdb9dd",
+			"headers": "x-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNTM3NTM3ODgzfQ.qI5dpAQS8Bt1pxOoQlXvJTeEblxWeupo9ljydy3AvO0\n",
+			"headerData": [
+				{
+					"key": "x-auth",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNTM3NTM3ODgzfQ.qI5dpAQS8Bt1pxOoQlXvJTeEblxWeupo9ljydy3AvO0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3001/favorite/2",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1537540873679,
+			"name": "Remove favorite hotel",
+			"description": "",
+			"collectionId": "194dfeb7-327c-2f3f-8399-f0879e7122f2",
+			"responses": []
+		},
+		{
+			"id": "5516ef53-95f4-380d-f868-b14fed0acfef",
+			"headers": "x-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNTM3NTM3ODgzfQ.qI5dpAQS8Bt1pxOoQlXvJTeEblxWeupo9ljydy3AvO0\n",
+			"headerData": [
+				{
+					"key": "x-auth",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNTM3NTM3ODgzfQ.qI5dpAQS8Bt1pxOoQlXvJTeEblxWeupo9ljydy3AvO0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3001/favorite/3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1537540864976,
+			"name": "Add hotel to favorites",
+			"description": "",
+			"collectionId": "194dfeb7-327c-2f3f-8399-f0879e7122f2",
+			"responses": []
+		},
+		{
+			"id": "5ac56969-ff9c-161a-1135-8038a1d84051",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3001/users/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1537540849263,
+			"name": "SingInAsUser",
+			"description": "",
+			"collectionId": "194dfeb7-327c-2f3f-8399-f0879e7122f2",
+			"responses": [],
+			"rawModeData": "{ \n\t\"email\":\"novi.user@gmail.com\",\n \"password\":\"admira\"\n\t\n}"
+		},
+		{
+			"id": "64e31d9e-1e0d-9730-198f-e23373b2660a",
+			"headers": "Content-Type: application/json\nx-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTM3NTI3NjMwfQ.pJ8Un3Wq1IgAEmjc1gaR-qNjGyuVQ7aqUBTPoGN9i9o\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-auth",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTM3NTI3NjMwfQ.pJ8Un3Wq1IgAEmjc1gaR-qNjGyuVQ7aqUBTPoGN9i9o",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3001/hotels/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1537540856960,
+			"name": "Edit hotel details",
+			"description": "",
+			"collectionId": "194dfeb7-327c-2f3f-8399-f0879e7122f2",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\":\"Promijenjeno ime hotela\"\n\n}"
+		},
+		{
+			"id": "6641b412-ceca-74fb-2172-a5b9f78faa05",
+			"headers": "x-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNTM3NTM4MDgxfQ.eGc6VFpUfXNdUEtXCfstvr2JyODSo4rzKSInHEhhmmQ\n",
+			"headerData": [
+				{
+					"key": "x-auth",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNTM3NTM4MDgxfQ.eGc6VFpUfXNdUEtXCfstvr2JyODSo4rzKSInHEhhmmQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3001/review/dislike/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1537540946587,
+			"name": "Like review",
+			"description": "",
+			"collectionId": "194dfeb7-327c-2f3f-8399-f0879e7122f2",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "3121de00-e33b-3aac-c81c-4b297e5eadd8"
+		},
+		{
+			"id": "a8823b83-3ba3-4720-9c9f-65bb0f47bca3",
+			"headers": "x-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNTM3NTM4MDgxfQ.eGc6VFpUfXNdUEtXCfstvr2JyODSo4rzKSInHEhhmmQ\n",
+			"headerData": [
+				{
+					"key": "x-auth",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNTM3NTM4MDgxfQ.eGc6VFpUfXNdUEtXCfstvr2JyODSo4rzKSInHEhhmmQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3001/review/dislike/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1537540962934,
+			"name": "Remove Dislike Review",
+			"description": "",
+			"collectionId": "194dfeb7-327c-2f3f-8399-f0879e7122f2",
+			"responses": []
+		},
+		{
+			"id": "a9729ad5-6c13-eaaf-812c-70c0ad2ce1b9",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3001/users",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1537540839270,
+			"name": "SignUp",
+			"description": "",
+			"collectionId": "194dfeb7-327c-2f3f-8399-f0879e7122f2",
+			"responses": [],
+			"rawModeData": "{\n \"name\":\"Novi user\",\n \"email\":\"novi.user@gmail.com\",\n \"password\":\"admira\"\n}"
+		},
+		{
+			"id": "a98ef267-22b7-23a2-749e-54142ca2a682",
+			"headers": "x-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNTM3NTM4MDgxfQ.eGc6VFpUfXNdUEtXCfstvr2JyODSo4rzKSInHEhhmmQ\n",
+			"headerData": [
+				{
+					"key": "x-auth",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNTM3NTM4MDgxfQ.eGc6VFpUfXNdUEtXCfstvr2JyODSo4rzKSInHEhhmmQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3001/review/like/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1537540982134,
+			"name": "Remove Like Review",
+			"description": "",
+			"collectionId": "194dfeb7-327c-2f3f-8399-f0879e7122f2",
+			"responses": []
+		},
+		{
+			"id": "aa57c4c4-ae62-12af-16c3-80cd1c33ee1c",
+			"headers": "x-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNTM3NTM4MDgxfQ.eGc6VFpUfXNdUEtXCfstvr2JyODSo4rzKSInHEhhmmQ\n",
+			"headerData": [
+				{
+					"key": "x-auth",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNTM3NTM4MDgxfQ.eGc6VFpUfXNdUEtXCfstvr2JyODSo4rzKSInHEhhmmQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3001/review/dislike/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1537540904706,
+			"name": "Users who disliked review",
+			"description": "",
+			"collectionId": "194dfeb7-327c-2f3f-8399-f0879e7122f2",
+			"responses": []
+		},
+		{
+			"id": "aa652838-eb2c-13e2-7c4e-53dfc2802872",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3001/users/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1537540896612,
+			"name": "SingInAsAdmin",
+			"description": "",
+			"collectionId": "194dfeb7-327c-2f3f-8399-f0879e7122f2",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\":\"admin@mail.com\",\n\t\"password\":\"admin\"\n}"
+		},
+		{
+			"id": "b4bba4d2-306a-4a5e-e1ca-7e74067e1211",
+			"headers": "x-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNTM3NTM4MDgxfQ.eGc6VFpUfXNdUEtXCfstvr2JyODSo4rzKSInHEhhmmQ\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "x-auth",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNTM3NTM4MDgxfQ.eGc6VFpUfXNdUEtXCfstvr2JyODSo4rzKSInHEhhmmQ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3001/review/2",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1537540876388,
+			"name": "Add review for hotel",
+			"description": "",
+			"collectionId": "194dfeb7-327c-2f3f-8399-f0879e7122f2",
+			"responses": [],
+			"rawModeData": "{\n\"description\":\"Dobar\",\n\"rating\":4\n}"
+		},
+		{
+			"id": "c819503b-57c0-79a3-58b7-831fda0bedef",
+			"headers": "x-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNTM3NTM4MDgxfQ.eGc6VFpUfXNdUEtXCfstvr2JyODSo4rzKSInHEhhmmQ\n",
+			"headerData": [
+				{
+					"key": "x-auth",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNTM3NTM4MDgxfQ.eGc6VFpUfXNdUEtXCfstvr2JyODSo4rzKSInHEhhmmQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3001/review/like/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1537540890604,
+			"name": "Users who liked review",
+			"description": "",
+			"collectionId": "194dfeb7-327c-2f3f-8399-f0879e7122f2",
+			"responses": []
+		},
+		{
+			"id": "ce0fa7aa-c72f-1b7b-df21-e05390c0a01f",
+			"headers": "x-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNTM3NTM3ODgzfQ.qI5dpAQS8Bt1pxOoQlXvJTeEblxWeupo9ljydy3AvO0\n",
+			"headerData": [
+				{
+					"key": "x-auth",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNTM3NTM3ODgzfQ.qI5dpAQS8Bt1pxOoQlXvJTeEblxWeupo9ljydy3AvO0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3001/hotels/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1537540899811,
+			"name": "View hotel details",
+			"description": "",
+			"collectionId": "194dfeb7-327c-2f3f-8399-f0879e7122f2",
+			"responses": []
+		},
+		{
+			"id": "dc02e627-48e9-af3b-9f0a-535acb20feb2",
+			"headers": "x-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTM3NTMxMjI2fQ.7j7JM_lBBwWXfQ1aNJZ90giY7aV2Dyf9QjAXEa81NAA\n",
+			"headerData": [
+				{
+					"key": "x-auth",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTM3NTMxMjI2fQ.7j7JM_lBBwWXfQ1aNJZ90giY7aV2Dyf9QjAXEa81NAA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3001/hotels",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1537540854466,
+			"name": "View hotels ordered by name ascending",
+			"description": "",
+			"collectionId": "194dfeb7-327c-2f3f-8399-f0879e7122f2",
+			"responses": []
+		}
+	]
+}

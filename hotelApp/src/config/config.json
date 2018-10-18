@@ -1,0 +1,18 @@
+{
+    "development": {
+        "PORT": 3001,
+        "DB": "testapp",
+        "user": "root",
+        "pass": "root",
+        "host": "localhost",
+        "JWT_SECRET": "abc123!"
+    },
+    "test": {
+        "PORT": 3001,
+        "DB": "test",
+        "user": "root",
+        "pass": "root",
+        "host": "localhost",
+        "JWT_SECRET": "abc123!"
+    }
+}
